@@ -20,15 +20,13 @@ class Manager(Calculate):
 
     def terminal_options(self):
         while(True):
-            option = input('O que você deseja fazer? \n [1] - Volume de Colchão de Lavagem Ácida \n [2] - Vazão Máxima de Injeção Ácida e Pressão de Injeção \n [3] - Vazão Radial \n [4] - Sair \n -> ')
+            option = input('O que você deseja fazer? \n [1] - Volume de Colchão de Lavagem Ácida \n [2] - Vazão Máxima de Injeção Ácida e Pressão de Injeção \n [3] - Sair \n -> ')
             match(option):
                 case "1":
                     self.calculate_required_acid_volume()
                 case "2":
                     self.calculate_injection_pump_flow_and_pressure()
                 case "3":
-                    self.calculate_radial_volume()
-                case "4":
                     return self.leave()
                 case _:
                     self.terminal_options()

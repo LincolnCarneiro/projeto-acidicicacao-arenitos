@@ -21,9 +21,8 @@ O projeto consiste em um terminal que calcula os parâmetros de acidificação d
 
 ```bash
 
-# Autores
+# Autor
 
 Lincoln Carneiro Fabar dos Santos Junior
-João Paulo Viana Soares
 
 email: lincolnjunior121@gmail.com
